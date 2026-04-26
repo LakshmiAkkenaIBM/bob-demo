@@ -1,5 +1,5 @@
 import express, { Application, Request, Response } from 'express';
-import todoRoutes from './routes/todos';
+import todoRoutes from './routes/todos.js';
 
 const app: Application = express();
 const PORT = process.env.PORT || 3000;

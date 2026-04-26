@@ -1,4 +1,4 @@
-import { Todo } from './models/todo';
+import { Todo } from './models/todo.js';
 import { v4 as uuidv4 } from 'uuid';
 
 // Simple in-memory database
@@ -10,7 +10,9 @@ class TodoDatabase {
     // Add some sample data
     const sampleTodo: Todo = {
       id: uuidv4(),
-      title: 'Learn Node.js modernization',
+
+      title: 'Welcome to the Modernized Node.js 22 API',
+
       completed: false,
       createdAt: new Date()
     };

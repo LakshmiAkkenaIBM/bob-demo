@@ -1,6 +1,6 @@
 import { Router, Request, Response } from 'express';
-import { db } from '../db';
-import { CreateTodoInput, UpdateTodoInput } from '../models/todo';
+import { db } from '../db.js';
+import { CreateTodoInput, UpdateTodoInput } from '../models/todo.js';
 
 const router = Router();
 
